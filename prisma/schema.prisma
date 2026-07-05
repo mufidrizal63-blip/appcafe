@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Menu {
+  id          String      @id @default(uuid())
+  name        String
+  description String?
+  price       Int
+  imageUrl    String?
+  category    String
+  isAvailable Boolean     @default(true)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  orderItems  OrderItem[]
+}
+
+model Order {
+  id            String      @id @default(uuid())
+  orderNumber   Int         @default(autoincrement())
+  customerName  String?
+  totalAmount   Int
+  paymentMethod String      // "CASH" atau "QRIS"
+  status        String      @default("COMPLETED") // "PENDING", "COMPLETED", "CANCELLED"
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  items         OrderItem[]
+}
+
+model OrderItem {
+  id        String   @id @default(uuid())
+  orderId   String
+  menuId    String
+  quantity  Int
+  price     Int      // Harga saat dipesan
+  order     Order    @relation(fields: [orderId], references: [id])
+  menu      Menu     @relation(fields: [menuId], references: [id])
+}
+
+model StockItem {
+  id          String   @id @default(uuid())
+  name        String
+  quantity    Float
+  unit        String   // kg, liter, pcs
+  minQuantity Float    // Peringatan jika stok di bawah ini
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model FinanceRecord {
+  id          String   @id @default(uuid())
+  type        String   // "INCOME" atau "EXPENSE"
+  amount      Int
+  description String
+  createdAt   DateTime @default(now())
+}

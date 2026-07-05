@@ -1,0 +1,18 @@
+{
+  "name": "Balkon Sisi Sawah Kiosk",
+  "short_name": "Balkon Sawah",
+  "description": "Aplikasi Kasir Balkon Sisi Sawah Cafe & Resto",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "orders": [
+    {
+      "id": "#ORD-001",
+      "time": "10.03",
+      "total": 40000,
+      "paymentMethod": "CASH",
+      "items": [
+        {
+          "id": "4",
+          "name": "Es Teh Manis Sereh",
+          "price": 10000,
+          "category": "Minuman",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Ayam Bakar Madu",
+          "price": 30000,
+          "category": "Makanan",
+          "quantity": 1
+        }
+      ],
+      "status": "Selesai",
+      "date": "2026-07-05T03:03:26.314Z"
+    },
+    {
+      "id": "#ORD-002",
+      "time": "10.20",
+      "customerName": "AKU",
+      "total": 30000,
+      "paymentMethod": "CASH",
+      "items": [
+        {
+          "id": "2",
+          "name": "Ayam Bakar Madu",
+          "price": 30000,
+          "category": "Makanan",
+          "quantity": 1
+        }
+      ],
+      "status": "Selesai",
+      "date": "2026-07-05T03:20:37.797Z"
+    },
+    {
+      "id": "#ORD-003",
+      "time": "12.20",
+      "customerName": "aku",
+      "total": 18000,
+      "paymentMethod": "CASH",
+      "items": [
+        {
+          "id": "3",
+          "name": "Kopi Susu Gula Aren",
+          "price": 18000,
+          "category": "Minuman",
+          "imageUrl": "/uploads/1783222579967-473229631-Caramel_Latte_Ice1.png",
+          "quantity": 1
+        }
+      ],
+      "status": "Selesai",
+      "date": "2026-07-05T05:20:26.708Z"
+    },
+    {
+      "id": "#ORD-004",
+      "time": "12.34",
+      "customerName": "budi",
+      "total": 25000,
+      "paymentMethod": "CASH",
+      "items": [
+        {
+          "id": "1",
+          "name": "Nasi Goreng Spesial Sawah",
+          "price": 25000,
+          "category": "Makanan",
+          "imageUrl": "/uploads/1783222227804-553384485-resep-nasi-goreng-spesial-yang-enak-dengan-bumbu-sederhana45.webp",
+          "quantity": 1
+        }
+      ],
+      "status": "Selesai",
+      "date": "2026-07-05T05:34:33.283Z"
+    },
+    {
+      "id": "#ORD-005",
+      "time": "12.38",
+      "customerName": "mm",
+      "total": 18000,
+      "paymentMethod": "CASH",
+      "items": [
+        {
+          "id": "3",
+          "name": "Kopi Susu Gula Aren",
+          "price": 18000,
+          "category": "Minuman",
+          "imageUrl": "/uploads/1783222579967-473229631-Caramel_Latte_Ice1.png",
+          "quantity": 1
+        }
+      ],
+      "status": "Selesai",
+      "date": "2026-07-05T05:38:31.916Z"
+    },
+    {
+      "id": "#ORD-006",
+      "time": "12.42",
+      "customerName": "na 6",
+      "total": 30000,
+      "paymentMethod": "CASH",
+      "items": [
+        {
+          "id": "2",
+          "name": "Ayam Bakar Madu",
+          "price": 30000,
+          "category": "Makanan",
+          "imageUrl": "/uploads/1783222288051-640347153-633297e88244b.jpg",
+          "quantity": 1
+        }
+      ],
+      "status": "Selesai",
+      "date": "2026-07-05T05:42:28.098Z"
+    },
+    {
+      "id": "#ORD-007",
+      "time": "12.49",
+      "customerName": "bn",
+      "total": 15000,
+      "paymentMethod": "CASH",
+      "items": [
+        {
+          "id": "5",
+          "name": "Pisang Goreng Keju",
+          "price": 15000,
+          "category": "Snack",
+          "imageUrl": "/uploads/1783222390762-616170163-images.jfif",
+          "quantity": 1
+        }
+      ],
+      "status": "Selesai",
+      "date": "2026-07-05T05:49:20.254Z"
+    },
+    {
+      "id": "#ORD-008",
+      "time": "12.50",
+      "customerName": "k",
+      "total": 30000,
+      "paymentMethod": "QRIS",
+      "items": [
+        {
+          "id": "2",
+          "name": "Ayam Bakar Madu",
+          "price": 30000,
+          "category": "Makanan",
+          "imageUrl": "/uploads/1783222288051-640347153-633297e88244b.jpg",
+          "quantity": 1
+        }
+      ],
+      "status": "Selesai",
+      "date": "2026-07-05T05:50:07.139Z"
+    },
+    {
+      "id": "#ORD-009",
+      "time": "13.59",
+      "customerName": "hg",
+      "total": 30000,
+      "paymentMethod": "QRIS",
+      "items": [
+        {
+          "id": "2",
+          "name": "Ayam Bakar Madu",
+          "price": 30000,
+          "category": "Makanan",
+          "imageUrl": "/uploads/1783222288051-640347153-633297e88244b.jpg",
+          "quantity": 1
+        }
+      ],
+      "status": "Selesai",
+      "date": "2026-07-05T06:59:53.425Z"
+    }
+  ],
+  "menus": [
+    {
+      "id": "1",
+      "name": "Nasi Goreng Spesial Sawah",
+      "price": 25000,
+      "category": "Makanan",
+      "imageUrl": "/uploads/1783222227804-553384485-resep-nasi-goreng-spesial-yang-enak-dengan-bumbu-sederhana45.webp"
+    },
+    {
+      "id": "2",
+      "name": "Ayam Bakar Madu",
+      "price": 30000,
+      "category": "Makanan",
+      "imageUrl": "/uploads/1783222288051-640347153-633297e88244b.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Kopi Susu Gula Aren",
+      "price": 18000,
+      "category": "Minuman",
+      "imageUrl": "/uploads/1783222579967-473229631-Caramel_Latte_Ice1.png"
+    },
+    {
+      "id": "5",
+      "name": "Pisang Goreng Keju",
+      "price": 15000,
+      "category": "Snack",
+      "imageUrl": "/uploads/1783222390762-616170163-images.jfif"
+    }
+  ],
+  "printerSettings": {
+    "printerName": "RPP02N",
+    "autoPrint": true,
+    "updatedAt": "2026-07-05T05:34:18.109Z"
+  },
+  "cafeSettings": {
+    "cafeName": "Balkon Sisi Sawah",
+    "cafeSubtitle": "Cafe",
+    "logoUrl": "/uploads/1783234760241-107266114-pngtree-creative-scarecrow-logo-png-image_11908358.png",
+    "qrisUrl": "/uploads/1783234765872-295545443-pngtree-black-and-white-logo-for-the-lupi-rice-fields-vector-png-image_7058991.png",
+    "updatedAt": "2026-07-05T06:59:27.240Z"
+  }
+}
